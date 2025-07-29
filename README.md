@@ -49,7 +49,14 @@ ASR-SL-Sinhala/
 - **Language**: Sinhala (සිංහල)
 - **Format**: CSV with sentence and file path columns
 - **Audio Format**: FLAC files
-- **Data Source**: Combined from multiple Sinhala speech datasets
+- **Data Source**: Large Sinhala ASR Training Dataset from Kaggle
+
+### Data Source
+This project utilizes the **Large Sinhala ASR Training Dataset** available on Kaggle:
+- **Dataset URL**: [https://www.kaggle.com/datasets/keshan/large-sinhala-asr-training-dataset](https://www.kaggle.com/datasets/keshan/large-sinhala-asr-training-dataset/data)
+- **Creator**: Keshan
+- **Description**: A comprehensive collection of Sinhala speech-text pairs specifically designed for ASR model training
+- **Quality**: Pre-processed and cleaned Sinhala audio data with corresponding transcriptions
 
 ### Dataset Variants
 - **10K Dataset**: 10,000 samples for quick experiments
@@ -172,10 +179,12 @@ This project is part of S2S Research and is available for academic and research 
 
 ## 🙏 Acknowledgments
 
+- **Keshan** for providing the [Large Sinhala ASR Training Dataset](https://www.kaggle.com/datasets/keshan/large-sinhala-asr-training-dataset/data) on Kaggle
 - OpenAI for the Whisper architecture
 - Hugging Face for the Transformers library
 - The Sinhala speech recognition research community
 - Contributors to Sinhala language processing tools
+- Kaggle community for hosting and maintaining the dataset
 
 ## 📧 Contact
 
