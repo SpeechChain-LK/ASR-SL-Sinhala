@@ -1,0 +1,33 @@
+COMBINED SINHALA ASR DATASET METADATA
+============================================================
+
+Creation Date: 2025-07-25 14:48:28
+Total Samples: 90,194
+Total Columns: 2
+Dataset Type: Combined (train + test without split indicator)
+
+COLUMN INFORMATION:
+------------------------------
+ 1. sentence_cleaned     | Type: object     | Non-null: 90,194
+ 2. file                 | Type: object     | Non-null: 90,194
+
+DATASET STRUCTURE:
+------------------------------
+Combined Dataset: 90,194 total samples
+Split Indicator: Not included (unified dataset)
+Source: train_data_clean.csv + test_data_clean.csv
+
+MISSING VALUES SUMMARY:
+------------------------------
+No missing values found.
+
+SAMPLE DATA (First 5 rows):
+--------------------------------------------------
+                                sentence_cleaned                                 file
+0   එය මිලිටරිය තුළ ති‍යන ප්‍රධානම ප්‍රතිමානයක්.  asr_sinhala/data/98/983e3c6613.flac
+1  සාහිත්‍යකරුවාට ඊට වැඩිය ලොකු වගකීමක් තියෙනවා.  asr_sinhala/data/29/29ab15c6d4.flac
+2                        ඕගොල්ලන්ට දකින්න ලැබෙයි  asr_sinhala/data/b0/b0072f9ac0.flac
+3                     බොදු බල සේනා හිමිවරුන් අතර  asr_sinhala/data/85/85fc577f7b.flac
+4                            ඔබතුමා දන්නා විදියට  asr_sinhala/data/7e/7e6bd7795f.flac
+
+END OF METADATA

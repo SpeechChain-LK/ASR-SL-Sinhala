@@ -1,0 +1,29 @@
+{
+  "dataset_info": {
+    "total_samples": 90194,
+    "train_samples": 72155,
+    "test_samples": 18039,
+    "train_percentage": 80.0,
+    "test_percentage": 20.0,
+    "vocabulary_size": 101,
+    "avg_sentence_length": 26.674889682240504,
+    "max_sentence_length": 132,
+    "min_sentence_length": 2
+  },
+  "split_strategy": "80% training, 20% testing",
+  "preprocessing_steps": [
+    "Text normalization and cleaning",
+    "Unicode normalization",
+    "Whitespace normalization",
+    "Punctuation normalization",
+    "Empty sentence removal",
+    "Length filtering (2-500 characters)",
+    "Sinhala character ratio filtering (>=50%)",
+    "Duplicate removal"
+  ],
+  "file_info": {
+    "audio_format": "flac",
+    "text_encoding": "utf-8",
+    "language": "Sinhala (si)"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset_info": {
+    "total_samples": 90194,
+    "train_samples": 72155,
+    "test_samples": 18039,
+    "train_percentage": 80.0,
+    "test_percentage": 20.0,
+    "vocabulary_size": 101,
+    "avg_sentence_length": 26.674889682240504,
+    "file_format": "clean (file, sentence_cleaned only)"
+  },
+  "split_strategy": "80% training, 20% testing",
+  "data_structure": {
+    "columns": [
+      "file",
+      "sentence_cleaned"
+    ],
+    "description": "Minimal structure for efficient ASR training"
+  },
+  "preprocessing_steps": [
+    "Text normalization and cleaning",
+    "Unicode normalization (NFC)",
+    "Minimal whitespace normalization",
+    "Control character removal",
+    "Empty sentence removal",
+    "Length filtering (2-500 characters)",
+    "Sinhala character ratio filtering (>=50%)",
+    "Duplicate removal",
+    "Column reduction to essentials only"
+  ],
+  "file_info": {
+    "audio_format": "flac",
+    "text_encoding": "utf-8",
+    "language": "Sinhala (si)"
+  }
+}
